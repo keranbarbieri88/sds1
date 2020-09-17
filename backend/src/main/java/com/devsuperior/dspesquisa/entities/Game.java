@@ -38,6 +38,7 @@ public class Game implements Serializable {
 	/*
 	 * Anotation de Associação muitos para um, neste caso da chave estrangeira
 	 */
+	
 	@ManyToOne
 	@JoinColumn(name = "genre_id")
 	private Genre genre;
@@ -45,6 +46,7 @@ public class Game implements Serializable {
 	/*
 	 * Anotation de Associação um para muitos, neste caso da chave primária
 	 */
+	
 	@OneToMany(mappedBy = "game")
 	private List<Record> records = new ArrayList<>();
 	
