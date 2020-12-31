@@ -3,7 +3,7 @@ export const pieOptions = {
       background: "transparent",
       foreColor: "red",
     },
-    colors: ["#a8dadc", "#ed7947", "#00D4FF", "#ffd6a5"],
+    colors: ["#6CA6CD", "#ed7947", "#00B2EE", "#EE9A00"],
     legend: {
       show: false,
     },
@@ -15,7 +15,7 @@ export const pieOptions = {
       offsetX: "100px",
       offsetY: "100px",
       style: {
-        colors: ["#a8dadc", "#ed7947", "#00D4FF", "#ffd6a5"],
+        colors: ["#6CA6CD", "#ed7947", "#00B2EE", "##EE9A00"],
         fontSize: "20px",
         fontFamily: "Play, sans-serif",
         fontWeight: 700,
