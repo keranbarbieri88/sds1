@@ -1,6 +1,7 @@
 export type RecordsResponse = {
-    content : RecordItem[];
-    totalPages : number;
+    content: RecordItem[];
+    totalPages: number;
+
 }
 
 export type RecordItem = {
@@ -10,7 +11,8 @@ export type RecordItem = {
     age: number;
     gameTitle: string;
     gamePlatform: Platform;
-    genreName: string;        
+    genreName: string;
+
 }
 
 export type Platform = 'XBOX' | 'PC' | 'PLAYSTATION';
